@@ -379,7 +379,7 @@ body,html {
   .about-section {
     flex-direction: column;
     text-align: center;
-    padding: 80px 6%;
+    padding: 100px 6%;
     gap: 40px;
   }
 
@@ -414,12 +414,13 @@ body,html {
   .about-text {
     font-size: 15px;
   }
+  
 }
 
 /* Tablets Portrait / Large Phones (768px) */
 @media (max-width: 768px) {
   .about-section {
-    padding: 70px 5%;
+    padding: 100px 5%;
     gap: 35px;
   }
 
@@ -446,13 +447,18 @@ body,html {
     width: auto;
     padding: 12px 25px;
   }
+
+  .about-text,
+  .about-list li {
+    text-align: start;
+  }
 }
 
 
 /* Small Phones (600px) */
 @media (max-width: 600px) {
   .about-section {
-    padding: 60px 5%;
+    padding: 100px 5%;
     gap: 35px;
   }
 
@@ -463,6 +469,7 @@ body,html {
   .about-text,
   .about-list li {
     font-size: 14.5px;
+    text-align: start;
   }
 
   .about-image-frame {
@@ -483,7 +490,7 @@ body,html {
 /* Extra Small Phones (480px) */
 @media (max-width: 480px) {
   .about-section {
-    padding: 50px 4%;
+    padding: 100px 4%;
   }
 
   .about-title {
@@ -516,7 +523,7 @@ body,html {
 /* Ultra Small Phones (360px) */
 @media (max-width: 360px) {
   .about-section {
-    padding: 45px 3%;
+    padding: 100px 3%;
   }
 
   .about-title {

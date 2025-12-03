@@ -80,6 +80,10 @@
 /* RESPONSIVE DESIGN */
 /* =================== */
 
+/* =================== */
+/* RESPONSIVE DESIGN */
+/* =================== */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -95,44 +99,49 @@
   transition: 0.3s;
 }
 
-/* Hamburger Animation */
+/* Animation */
 .hamburger.open span:nth-child(1) {
   transform: translateY(9px) rotate(45deg);
 }
-
 .hamburger.open span:nth-child(2) {
   opacity: 0;
 }
-
 .hamburger.open span:nth-child(3) {
   transform: translateY(-9px) rotate(-45deg);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .nav-links {
     position: fixed;
     top: 90px;
-    right: 0;              /* stick to right edge */
-    width: 50%;            /* menu width */
-    height: 50vh;
-    background: linear-gradient(
-    to right,
-    rgba(4, 25, 62, 1),
-    rgba(4, 25, 62, 1)
-  );
+    right: 0;
+
+    /* ⭐ override desktop centering */
+    left: auto !important;
+    transform: translateX(100%) !important;
+    
+    background: rgba(4, 25, 62, 1);
+    width: 240px;
+    padding: 40px 20px;
+    height: auto;
+
+    border-radius: 0 0 0 15px;
+
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
+    justify-content: center;
+
+    gap: 25px;
+
     opacity: 0;
-    transform: translateX(100%); /* hidden to the right */
-    transition: transform 0.4s ease, opacity 0.3s ease;
+    transition: transform 0.35s ease, opacity 0.3s ease;
     z-index: 999;
   }
 
   .nav-links.show {
+    transform: translateX(0) !important;
     opacity: 1;
-    transform: translateX(0); /* slide IN from right */
   }
 
   .nav-right {
