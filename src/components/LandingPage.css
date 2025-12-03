@@ -353,7 +353,7 @@ body,html {
 /* Large laptops / Tablets landscape (1200px) */
 @media (max-width: 1200px) {
   .about-section {
-    padding: 100px 6%;
+    padding: 100px 6% 0 6%;
     gap: 40px;
   }
 
@@ -379,7 +379,7 @@ body,html {
   .about-section {
     flex-direction: column;
     text-align: center;
-    padding: 100px 6%;
+    padding: 100px 6% 0 6%;
     gap: 40px;
   }
 
@@ -420,7 +420,7 @@ body,html {
 /* Tablets Portrait / Large Phones (768px) */
 @media (max-width: 768px) {
   .about-section {
-    padding: 100px 5%;
+    padding: 100px 5% 0 5%;
     gap: 35px;
   }
 
@@ -458,7 +458,7 @@ body,html {
 /* Small Phones (600px) */
 @media (max-width: 600px) {
   .about-section {
-    padding: 100px 5%;
+    padding: 100px 5% 0 5%;
     gap: 35px;
   }
 
@@ -490,7 +490,7 @@ body,html {
 /* Extra Small Phones (480px) */
 @media (max-width: 480px) {
   .about-section {
-    padding: 100px 4%;
+    padding: 100px 4% 0 4%;
   }
 
   .about-title {
@@ -523,7 +523,7 @@ body,html {
 /* Ultra Small Phones (360px) */
 @media (max-width: 360px) {
   .about-section {
-    padding: 100px 3%;
+    padding: 100px 3% 0 3%;
   }
 
   .about-title {
