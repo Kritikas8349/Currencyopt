@@ -21,9 +21,9 @@ body,html {
   padding: 20px;
   width: 100%;
   position: relative;
-  flex-wrap: wrap; /* allow wrapping on small screens */
+  flex-wrap: wrap; 
 
-  background-image: url('trading.webp');
+  background-image: url('/trading.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
