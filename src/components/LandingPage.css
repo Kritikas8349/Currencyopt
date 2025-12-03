@@ -265,7 +265,7 @@ body,html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 120px 8%;
+  padding: 120px 8% 0 8%;
   gap: 50px;
   flex-wrap: wrap;
 }
